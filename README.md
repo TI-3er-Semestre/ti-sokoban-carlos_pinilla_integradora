@@ -30,3 +30,12 @@ controller, view, util) y creación del README con documentación base
 > ### Iteración 3: `<commit-sha>`
 > Implementación completa de Board, Player y Box.
 > La lógica de movimiento, empuje de cajas y detección de victoria están funcionales.
+> ### Iteración 4: `<commit-sha>`
+> Codificación de pruebas unitarias para LinkedList y BinarySearchTree
+> siguiendo el patrón AAA.
+> ### Iteración 5: `<commit-sha>`
+> Implementación completa de LinkedList y BinarySearchTree
+> con sus respectivas pruebas unitarias.
+> ### Iteración 5: `<commit-sha>`
+> Implementación completa de la estructura Stack con nodos enlazados.
+> Los 4 tests de StackTest pasan correctamente.

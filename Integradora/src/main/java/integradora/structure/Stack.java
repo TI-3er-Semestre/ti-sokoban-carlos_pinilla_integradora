@@ -1,14 +1,65 @@
 package integradora.structure;
 
-public class Stack<T> {
+public class Stack<T>
+{
 
-    public void push(T data) { }
+    private Node<T> top;
+    private int size;
 
-    public T pop() { return null; }
+    private static class Node<T>
+    {
+        T data;
+        Node<T> next;
 
-    public T peek() { return null; }
+        Node(T data)
+        {
+            this.data = data;
+            this.next = null;
+        }
+    }
 
-    public boolean isEmpty() { return true; }
+    public Stack()
+    {
+        this.top  = null;
+        this.size = 0;
+    }
 
-    public int size() { return 0; }
+    public void push(T data)
+    {
+        Node<T> newNode = new Node<>(data);
+        newNode.next = top;
+        top = newNode;
+        size++;
+    }
+
+    public T pop()
+    {
+        if (isEmpty())
+        {
+            throw new RuntimeException("Stack is empty");
+        }
+        T data = top.data;
+        top = top.next;
+        size--;
+        return data;
+    }
+
+    public T peek()
+    {
+        if (isEmpty())
+        {
+            throw new RuntimeException("Stack is empty");
+        }
+        return top.data;
+    }
+
+    public boolean isEmpty()
+    {
+        return top == null;
+    }
+
+    public int size()
+    {
+        return size;
+    }
 }
