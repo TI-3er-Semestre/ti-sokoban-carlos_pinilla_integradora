@@ -25,3 +25,8 @@ controller, view, util) y creación del README con documentación base
 >Densidad de errores-fallos  = 14 / 14 = 1.0
 >Confiabilidad               = 1 - 1.0 = 0.0
 >Completitud                 = 14 / 6  = 2.33
+> 
+> 
+> ### Iteración 3: `<commit-sha>`
+> Implementación completa de Board, Player y Box.
+> La lógica de movimiento, empuje de cajas y detección de victoria están funcionales.
