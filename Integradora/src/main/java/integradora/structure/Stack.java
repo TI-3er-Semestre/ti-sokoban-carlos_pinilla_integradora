@@ -1,4 +1,4 @@
 package integradora.structure;
 
-public class PriorityQueueTest {
+public class Stack {
 }
