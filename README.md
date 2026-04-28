@@ -39,3 +39,6 @@ controller, view, util) y creación del README con documentación base
 > ### Iteración 5: `<commit-sha>`
 > Implementación completa de la estructura Stack con nodos enlazados.
 > Los 4 tests de StackTest pasan correctamente.
+> ### Iteración 6: `<commit-sha>`
+> Adición del formato de escenarios y casos de prueba unitarias
+> en la carpeta doc/.
