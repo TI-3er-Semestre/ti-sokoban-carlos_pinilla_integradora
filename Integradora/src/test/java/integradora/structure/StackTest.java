@@ -14,9 +14,9 @@ class StackTest {
         stage6 = new Stack<>();
     }
 
-    // =========================================================================
+
     // Objetivo: Validar las operaciones de pila para el funcionamiento Undo
-    // =========================================================================
+
 
     @Test
     void push_boardState_elementAddedToTop() {

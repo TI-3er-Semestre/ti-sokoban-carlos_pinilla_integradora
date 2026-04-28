@@ -32,9 +32,9 @@ class PriorityQueueTest {
         stage8.enqueue(new PlayerScore("Carol", 60));
     }
 
-    // =========================================================================
+
     // Objetivo: Validar la cola de prioridad para el leaderboard
-    // =========================================================================
+
 
     @Test
     void enqueue_playerWith20Moves_insertedAccordingToPriority() {

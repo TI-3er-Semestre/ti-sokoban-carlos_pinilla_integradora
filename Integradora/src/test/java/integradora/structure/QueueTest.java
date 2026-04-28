@@ -13,9 +13,9 @@ class QueueTest {
         stage7 = new Queue<>();
     }
 
-    // =========================================================================
+
     // Objetivo: Validar operaciones de la cola de comandos
-    // =========================================================================
+
 
     @Test
     void enqueue_moveRight_commandAddedToEnd() {
