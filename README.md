@@ -42,3 +42,6 @@ controller, view, util) y creación del README con documentación base
 > ### Iteración 6: `<commit-sha>`
 > Adición del formato de escenarios y casos de prueba unitarias
 > en la carpeta doc/.
+> ### Iteración 7: `<commit-sha>`
+> Implementación completa de Queue, PriorityQueue, HashTable,
+> SortingAlgorithm, BinarySearch
