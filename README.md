@@ -45,3 +45,9 @@ controller, view, util) y creación del README con documentación base
 > ### Iteración 7: `<commit-sha>`
 > Implementación completa de Queue, PriorityQueue, HashTable,
 > SortingAlgorithm, BinarySearch
+> ### Iteración 8: `<commit-sha>`
+> Implementación de GameController con métodos startGame, movePlayer,
+> saveGame, loadGame y restartLevel.
+> ### Iteración 9: `<commit-sha>`
+> Implementación de GameControllerTest con pruebas unitarias para startGame,
+> saveGame, loadGame y restartLevel siguiendo el patrón AAA.

@@ -101,4 +101,8 @@ public class Board {
     private boolean inBounds(int r, int c) {
         return r >= 0 && r < rows && c >= 0 && c < cols;
     }
+    public Cell[][] getGrid()
+    {
+        return grid;
+    }
 }

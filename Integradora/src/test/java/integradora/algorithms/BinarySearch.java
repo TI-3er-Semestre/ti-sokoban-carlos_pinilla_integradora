@@ -1,4 +1,4 @@
-package integradora.Algorithms;
+package integradora.algorithms;
 
 public class BinarySearch
 {
